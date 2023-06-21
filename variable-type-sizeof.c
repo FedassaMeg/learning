@@ -19,10 +19,14 @@ int main(int argc, char** argv) {
     printf("UINT_MAX: %u\n", (unsigned int) UINT_MAX);
     printf("ULONG_MAX: %lu\n", (unsigned long) ULONG_MAX);
     printf("USHRT_MAX: %d\n", (unsigned short) USHRT_MAX);
+    printf("Storage size for float : %d \n", sizeof(float));
     printf("FLT_MAX: %f\n", (float) FLT_MAX);
     printf("FLT_MIN: %f\n", (float) FLT_MIN);
+    printf("-FLT_MAX: %f\n", (float) -FLT_MAX);
+    printf("-FLT_MIN: %f\n", (float) -FLT_MIN);
     printf("DBL_MAX: %f\n", (double) DBL_MAX);
     printf("DBL_MIN: %f\n", (double) DBL_MIN);
+    printf("Precision value: %d\n", FLT_DIG );
     printf("LDBL_MAX: %Lf\n", (long double) LDBL_MAX);
     printf("LDBL_MIN: %Lf\n", (long double) LDBL_MIN);
 
